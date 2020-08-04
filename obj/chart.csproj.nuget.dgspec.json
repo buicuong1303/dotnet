@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\dotnet\\chart\\chart.csproj": {}
+  },
+  "projects": {
+    "D:\\dotnet\\chart\\chart.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\dotnet\\chart\\chart.csproj",
+        "projectName": "chart",
+        "projectPath": "D:\\dotnet\\chart\\chart.csproj",
+        "packagesPath": "C:\\Users\\Erik\\.nuget\\packages\\",
+        "outputPath": "D:\\dotnet\\chart\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Erik\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.2.1, )"
+            },
+            "FreeSpire.XLS": {
+              "target": "Package",
+              "version": "[10.1.0, )"
+            },
+            "GemBox.Spreadsheet": {
+              "target": "Package",
+              "version": "[45.0.1187, )"
+            },
+            "Spire.XLS": {
+              "target": "Package",
+              "version": "[10.7.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
